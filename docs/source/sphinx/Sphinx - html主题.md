@@ -14,9 +14,11 @@ sphinx提供了多种内置主题，当前默认主题是alabaster，还有其�
     #
     html_theme = 'sphinx_rtd_theme'
 
-我修改成了sphinx_rtd_theme主题，它需要自己安装
+我修改成了readthedocs主题风格，它需要先自行安装
 
-    sphinx_rtd_theme is no longer a hard dependency since version 1.4.0. Please install it manually.(pip install sphinx_rtd_theme)
+    pip install sphinx_rtd_theme
+
+![](./imgs/rtd_theme.png)
 
 ## 自定义
 
