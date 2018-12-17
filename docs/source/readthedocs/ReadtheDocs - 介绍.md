@@ -15,7 +15,7 @@ Read the Docs是一个在线文档浏览网站，现在常见的文档管理操�
 
 [Sign Up](https://readthedocs.org/accounts/signup/)
 
-也可以直接用githb账号登录
+推荐直接用githb账号登录
 
 
 
