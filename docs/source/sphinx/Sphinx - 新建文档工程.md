@@ -3,13 +3,13 @@
 
 参考：[Getting Started](http://www.sphinx-doc.org/en/master/usage/quickstart.html)
 
-sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
+`sphinx`提供了工具`sphinx-quickstart`用于快速生成一个文档工程
 
 ---
 
-## sphinx-quickstart使用
+## `sphinx-quickstart`使用
 
-新建空文件夹，该目录下，输入命令sphinx-quickstart启动一个工程，随后根据需求选择配置
+新建空文件夹，该目录下，输入命令`sphinx-quickstart`启动一个工程，随后根据需求选择配置
 
     zhujian@zhujian-virtual-machine:~/doc/first$ sphinx-quickstart 
     Welcome to the Sphinx 1.8.2 quickstart utility.
@@ -33,7 +33,7 @@ sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
     files. You can enter another prefix (such as ".") to replace the underscore.
     > Name prefix for templates and static dir [_]: 
 
-在源文件目录中会生成两个文件夹：'_templates'用于保存自定义HTML模板；‘_static’用于保存自定义样式表和其他静态文件，默认以下划线'_'来强调文件夹功能
+在源文件目录中会生成两个文件夹：`'_templates'`用于保存自定义HTML模板；`‘_static’`用于保存自定义样式表和其他静态文件，默认以下划线`'_'`来强调文件夹功能
 
     The project name will occur in several places in the built documentation.
     > Project name: 
@@ -50,13 +50,13 @@ sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
     http://sphinx-doc.org/config.html#confval-language.
     > Project language [en]: 
 
-语言定制，默认是英语，中文是zh_CN
+语言定制，默认是英语，中文是`zh_CN`
 
     The file name suffix for source files. Commonly, this is either ".txt"
     or ".rst".  Only files with this suffix are considered documents.
     > Source file suffix [.rst]: 
 
-指定源文件后缀名，默认为'.txt'或者'.rst'，仅有指定后缀的文件会被加入文档
+指定源文件后缀名，默认为`'.txt'`或者`'.rst'`，仅有指定后缀的文件会被加入文档
 
     One document is special in that it is considered the top node of the
     "contents tree", that is, it is the root of the hierarchical structure
@@ -64,7 +64,7 @@ sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
     document is a custom template, you can also set this to another filename.
     > Name of your master document (without suffix) [index]: 
 
-指定名为'index'的文件为内容树的顶部节点，如果名为'index'的文件已被用于自定义模板，那么可以指定另外一个文件名作为顶部节点
+指定名为`'index'`的文件为内容树的顶部节点，如果名为`'index'`的文件已被用于自定义模板，那么可以指定另外一个文件名作为顶部节点
 
     Indicate which of the following Sphinx extensions should be enabled:
     > autodoc: automatically insert docstrings from modules (y/n) [n]: y
@@ -80,18 +80,18 @@ sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
 
 指定下列扩展功能是否使用
 
-1. autodoc: 自动从模块中插入文档字符串
-2. doctest: 自动测试文档测试块中的代码片段
-3. intersphinx: 链接不同工程中的sphinx文档
-4. todo: 是否在构建时显示或隐藏'todo'条目
-5. coverage: 检查文档覆盖率
-6. imgmath: 将数学公式渲染为PNG或SVG图像
-7. mathjax: 在浏览器中用MathJax渲染数学公式
-8. ifconfig: conditional inclusion of content based on config values
-9. viewcode: 文档化Python对象源代码的包含链接
-10. githubpages: 创建一个.nojekyll文件，以便发布到github
+1. `autodoc`: 自动从模块中插入文档字符串
+2. `doctest`: 自动测试文档测试块中的代码片段
+3. `intersphinx`: 链接不同工程中的`sphinx`文档
+4. `todo`: 是否在构建时显示或隐藏`'todo'`条目
+5. `coverage`: 检查文档覆盖率
+6. `imgmath`: 将数学公式渲染为`PNG`或`SVG`图像
+7. `mathjax`: 在浏览器中用`MathJax`渲染数学公式
+8. `ifconfig`: `conditional inclusion of content based on config values`
+9. `viewcode`: 文档化`Python`对象源代码的包含链接
+10. `githubpages`: 创建一个`.nojekyll`文件，以便发布到`github`
 
-需要注意的是，不能同时配置imgmath和mathjax
+需要注意的是，不能同时配置`imgmath`和`mathjax`
 
     A Makefile and a Windows command file can be generated for you so that you
     only have to run e.g. `make html' instead of invoking sphinx-build
@@ -99,7 +99,7 @@ sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
     > Create Makefile? (y/n) [y]: 
     > Create Windows command file? (y/n) [y]:
 
-是否生成一个Makefile文件和一个Windows命令文件，这样可以直接生成而不需要使用工具sphinx-build
+是否生成一个`Makefile`文件和一个`Windows`命令文件，这样可以直接生成而不需要使用工具`sphinx-build`
 
     Creating file ./conf.py.
     Creating file ./index.rst.
@@ -152,21 +152,21 @@ sphinx提供了工具sphinx-quickstart用于快速生成一个文档工程
 
     4 directories, 4 files
 
-build(或_build)是输出文件路径
+`build`(或`_build`)是输出文件路径
 
-Makefile/make.bat是构建文件
+`Makefile/make.bat`是构建文件
 
-source是源文件路径(在文件conf.py中包含了所有的配置选项)
+`source`是源文件路径(在文件`conf.py`中包含了所有的配置选项)
 
 ---
 
 ## 构建
 
-如果已经生成了Makefile文件，那么直接使用make命令就好了
+如果已经生成了`Makefile`文件，那么直接使用`make`命令就好了
 
     make builder 
     
-builder指要构建的格式，比如html,latex等等
+`builder`指要构建的格式，比如`html,latex`等等
 
     zhujian@zhujian-virtual-machine:~/doc/sphinx$ make html
     Running Sphinx v1.8.2
@@ -190,11 +190,11 @@ builder指要构建的格式，比如html,latex等等
 
     The HTML pages are in build/html.
 
-然后进入./build/html，打开index.html即可
+然后进入`./build/html`，打开`index.html`即可
 
 ![](./imgs/new_project.png)
 
-如果源文件和输出文件放置在一起，那么输出会在_build文件夹内
+如果源文件和输出文件放置在一起，那么输出会在`_build`文件夹内
 
     zhujian@zhujian-virtual-machine:~/doc/first$ make html
     Running Sphinx v1.8.2
@@ -202,7 +202,7 @@ builder指要构建的格式，比如html,latex等等
 
     The HTML pages are in _build/html.
 
-也可以使用工具sphinx-build，操作如下：
+也可以使用工具`sphinx-build`，操作如下：
 
     sphinx-build -b html sourcedir builddir
 

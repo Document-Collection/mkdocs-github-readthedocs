@@ -12,9 +12,11 @@ sphinx提供了多种内置主题，当前默认主题是alabaster，还有其�
     # The theme to use for HTML and HTML Help pages.  See the documentation for
     # a list of builtin themes.
     #
-    html_theme = 'classic'
+    html_theme = 'sphinx_rtd_theme'
 
-我修改成了classic主题
+我修改成了sphinx_rtd_theme主题，它需要自己安装
+
+    sphinx_rtd_theme is no longer a hard dependency since version 1.4.0. Please install it manually.(pip install sphinx_rtd_theme)
 
 ## 自定义
 
