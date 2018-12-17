@@ -16,6 +16,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sys 
+reload(sys) 
+sys.setdefaultencoding('utf8')
 
 # -- Project information -----------------------------------------------------
 
