@@ -18,6 +18,7 @@ sphinx+github+readthedocs
    sphinx/Sphinx - Markdown
    readthedocs/ReadtheDocs - 介绍
    readthedocs/ReadtheDocs - 在线发布
+   readthedocs/ReadtheDocs - 编译问题
 
 
 .. Indices and tables
