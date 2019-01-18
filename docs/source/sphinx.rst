@@ -14,3 +14,4 @@ sphinx
    sphinx/reStructuredtext - 常用语法
    sphinx/Sphinx - html主题
    sphinx/Sphinx - Markdown
+   sphinx/Sphinx - MathJax
