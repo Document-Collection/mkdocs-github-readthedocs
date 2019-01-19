@@ -11,4 +11,5 @@ sphinx+github+readthedocs
    :maxdepth: 2
 
    sphinx
+   [pandoc]文档转换工具
    readthedocs
