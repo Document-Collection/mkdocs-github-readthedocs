@@ -9,3 +9,4 @@ readthedocs
    readthedocs/ReadtheDocs - 介绍
    readthedocs/ReadtheDocs - 在线发布
    readthedocs/ReadtheDocs - 编译问题
+   readthedocs/ReadtheDocs - 添加徽章
