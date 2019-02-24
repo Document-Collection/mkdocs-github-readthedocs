@@ -22,7 +22,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = '在线文档操作'
+project = 'sphinx-github-readthedocs'
 copyright = '2018, zhujian'
 author = 'zhujian'
 
@@ -140,7 +140,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sphinx.tex', 'sphinx使用 Documentation',
+    (master_doc, 'sphinx.tex', u'sphinx使用 Documentation',
      'zhujian', 'manual'),
 ]
 
