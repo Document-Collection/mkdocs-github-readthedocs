@@ -12,5 +12,5 @@ sphinx-github-readthedocs
 
    restructuredtest
    sphinx
-   [pandoc]文档转换工具
+   pandoc-文档转换工具
    readthedocs

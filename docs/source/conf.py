@@ -31,6 +31,7 @@ release = '2.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['recommonmark',
+            "sphinx_rtd_theme",
             'sphinx.ext.mathjax']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -67,3 +68,5 @@ source_suffix = {
     '.txt': 'markdown',
     '.md': 'markdown',
 }
+
+master_doc = 'index'
