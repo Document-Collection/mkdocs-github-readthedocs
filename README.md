@@ -25,7 +25,7 @@ Sphinx+Github+Readthedocs能够满足要求
 
 # 安装
 
-需要预先安装以下工具：
+文档本地编译需要预先安装以下工具：
 
 ```
 $ pip install -U Sphinx

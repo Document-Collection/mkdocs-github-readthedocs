@@ -25,3 +25,4 @@
 
     pip install -U Sphinx
 
+*升级`sphinx`同样使用此命令*
