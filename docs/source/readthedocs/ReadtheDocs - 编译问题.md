@@ -70,3 +70,37 @@
 
     Create a PDF version of your documentation with each build.
 
+## 问题三：`/source/contents.rst not found`
+
+更新`sphinx`版本从`v1.8.0`到`v2.2.1`，在本地编译没有问题，在`readthedocs`上发生如下问题
+
+```
+/home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/envs/latest/lib/python3.7/site-packages/recommonmark/parser.py:65: UserWarning: Container node skipped: type=document
+  warn("Container node skipped: type={0}".format(mdnode.t))
+
+Traceback (most recent call last):
+  File "/home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/envs/latest/lib/python3.7/site-packages/sphinx/cmd/build.py", line 304, in build_main
+    app.build(args.force_all, filenames)
+  File "/home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/envs/latest/lib/python3.7/site-packages/sphinx/application.py", line 341, in build
+    self.builder.build_update()
+  File "/home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/envs/latest/lib/python3.7/site-packages/sphinx/builders/__init__.py", line 347, in build_update
+    len(to_build))
+  File "/home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/envs/latest/lib/python3.7/site-packages/sphinx/builders/__init__.py", line 360, in build
+    updated_docnames = set(self.read())
+  File "/home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/envs/latest/lib/python3.7/site-packages/sphinx/builders/__init__.py", line 472, in read
+    self.env.doc2path(self.config.master_doc))
+sphinx.errors.SphinxError: master file /home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/checkouts/latest/docs/source/contents.rst not found
+
+Sphinx error:
+master file /home/docs/checkouts/readthedocs.org/user_builds/zj-sphinx-github-readthedocs/checkouts/latest/docs/source/contents.rst not found
+```
+
+参考[Sphinx error: master file [..]/checkouts/latest/contents.rst not found #2569](https://github.com/readthedocs/readthedocs.org/issues/2569)
+
+在`conf.py`中添加
+
+```
+master_doc = 'index'
+```
+
+原因是`readthedocs`使用的`sphinx`版本较低，导致无法找到起始页
