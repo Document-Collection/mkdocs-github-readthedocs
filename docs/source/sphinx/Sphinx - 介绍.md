@@ -26,3 +26,10 @@
     pip install -U Sphinx
 
 *升级`sphinx`同样使用此命令*
+
+当前使用版本：
+
+```
+$ sphinx-quickstart --version
+sphinx-quickstart 2.2.1
+```
