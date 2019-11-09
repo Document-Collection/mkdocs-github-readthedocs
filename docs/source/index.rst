@@ -10,6 +10,7 @@ sphinx-github-readthedocs
    :caption: 目录:
    :maxdepth: 2
 
+   restructuredtest
    sphinx
    [pandoc]文档转换工具
    readthedocs
