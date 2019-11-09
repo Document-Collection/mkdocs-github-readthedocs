@@ -1,5 +1,5 @@
 
-# `reStructuredtext`语法
+# reStructuredtext语法
 
 `sphinx`使用`reStructuredtext`作为标记语法，下面学习一些相关的内容
 
@@ -103,13 +103,3 @@
 **注意 1：引用名左右需要空格**
 
 **注意 2：引用名如果带有空格或符号，用反引号括起来**
-
-
-
-
-
-
-
-
-
-
