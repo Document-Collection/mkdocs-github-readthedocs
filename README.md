@@ -1,9 +1,9 @@
 
-# sphinx-github-readthedocs
+# mkdocs-github-readthedocs
 
 [![Documentation Status](https://readthedocs.org/projects/zj-sphinx-github-readthedocs/badge/?version=latest)](https://zj-sphinx-github-readthedocs.readthedocs.io/en/latest/?badge=latest) [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-> sphinx文档制作，github远程托管，readthedocs在线发布
+>  mkdocs文档制作，github远程托管，readthedocs在线发布
 
 ## 内容列表
 
@@ -28,24 +28,23 @@ Sphinx+Github+Readthedocs能够满足要求
 文档本地编译需要预先安装以下工具：
 
 ```
-$ pip install -U Sphinx
-$ sudo apt-get install make
+$ pip install mkdocs
 ```
 
 ## 用法
 
 有两种使用方式
 
-1. 在线浏览文档：[sphinx+github+readthedocs](https://zj-sphinx-github-readthedocs.readthedocs.io/en/latest/index.html)
+1. 在线浏览文档：[mkdocs+github+readthedocs](https://zj-sphinx-github-readthedocs.readthedocs.io/en/latest/index.html)
 
-2. 本地生成文档，实现如下：
+2. 本地浏览文档，实现如下：
 
     ```
-    $ git clone https://github.com/zjZSTU/sphinx-github-readthedocs
-    $ cd sphinx-github-readthedocs/docs
-    $ make html
+    $ git clone https://github.com/zjZSTU/mkdocs-github-readthedocs.git
+    $ cd mkdocs-github-readthedocs
+    $ mkdocs serve
     ```
-    编译完成后进入`docs/build/html`目录，打开`index.html`文件
+   启动本地服务器后即可登录浏览器`localhost:8000`
 
 ## 主要维护人员
 
