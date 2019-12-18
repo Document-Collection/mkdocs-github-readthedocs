@@ -1,5 +1,5 @@
 
-# `sphinx`介绍
+# sphinx介绍
 
 官网：[SPHINX](http://www.sphinx-doc.org/en/master/)
 
