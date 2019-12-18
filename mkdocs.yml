@@ -1,0 +1,52 @@
+# 站点名称
+site_name: 'MkDocs-Github-Readthedocs'
+# 仓库链接
+repo_url: 
+# 作者
+site_author: 'zhujian'
+# 版权信息
+copyright: '2019, zhujian'
+# 源文件目录
+docs_dir: 'docs'
+# 生成静态文件目录
+site_dir: 'site'
+# 额外信息
+extra:
+    # 版本号
+    version: 1.0
+# 主题
+theme: 
+    # name: 'readthedocs'
+    # name: 'mkdocs'
+    name: 'material'
+# markdown扩展
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+# 导航
+nav:
+    - Home: index.md
+    - MkDocs:
+        - 介绍: './mkdocs/引言.md'
+        - Get-Started: './mkdocs/get-started.md'
+        - 配置文件解析: './mkdocs/配置文件解析.md'
+    - reStructuredText: 
+        - 常用语法: 'reStructuredText/reStructuredText-常用语法.md'
+        - 目录树: 'reStructuredText/Sphinx-目录树.md'    
+    - Sphinx: 
+        - 介绍: 'sphinx/Sphinx - 介绍.md'
+        - 新建文档工程: 'sphinx/Sphinx - 新建文档工程.md'
+        - html主题: 'sphinx/Sphinx - html主题.md'
+        - markdown配置: 'sphinx/Sphinx - markdown配置.md'
+        - MathJax配置: './sphinx/Sphinx - MathJax.md'
+        - bug: 'sphinx/Sphinx - bug.md'
+    - Pandoc: 'pandoc-文档转换工具.md'
+    - Readthedocs: 
+        - 介绍: './readthedocs/ReadtheDocs - 介绍.md'
+        - 在线发布: './readthedocs/ReadtheDocs - 在线发布.md'
+        - 徽章: './readthedocs/ReadtheDocs - 添加徽章.md'
+        - 编译问题: './readthedocs/ReadtheDocs - 编译问题.md'
