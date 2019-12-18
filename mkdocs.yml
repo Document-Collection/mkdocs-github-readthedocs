@@ -13,7 +13,7 @@ site_dir: 'site'
 # 额外信息
 extra:
     # 版本号
-    version: 1.0
+    version: 1.0.0
 # 主题
 theme: 
     # name: 'readthedocs'
@@ -41,7 +41,7 @@ nav:
         - 介绍: 'sphinx/Sphinx - 介绍.md'
         - 新建文档工程: 'sphinx/Sphinx - 新建文档工程.md'
         - html主题: 'sphinx/Sphinx - html主题.md'
-        - markdown配置: 'sphinx/Sphinx - markdown配置.md'
+        - markdown配置: 'sphinx/Sphinx - Markdown.md'
         - MathJax配置: './sphinx/Sphinx - MathJax.md'
         - bug: 'sphinx/Sphinx - bug.md'
     - Pandoc: 'pandoc-文档转换工具.md'
