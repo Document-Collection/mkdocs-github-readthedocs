@@ -1,7 +1,7 @@
 # 站点名称
 site_name: 'MkDocs-Github-Readthedocs'
 # 仓库链接
-repo_url: 
+repo_url: https://github.com/zjZSTU/mkdocs-github-readthedocs.git
 # 作者
 site_author: 'zhujian'
 # 版权信息
