@@ -25,13 +25,15 @@
 
 参考：[Build Process](https://docs.readthedocs.io/en/latest/builds.html)
 
-如果你上传的是`sphinx`工程，那么`readthedocs`首先会在doc或docs文件夹内搜索`conf.py`文件，然后是在其他位置，如果没有会自动生成一个
+如果你上传的是`sphinx`工程，那么`readthedocs`首先会在`doc`或`docs`文件夹内搜索`conf.py`文件，然后是在其他位置，如果没有会自动生成一个
 
-readthedocs完整的编译流程如下：
+`readthedocs`完整的编译流程如下：
 
 * 从`github`中`check out`代码，如果已经下载，那么更新代码
 * 根据你选择的生成格式（比如`sphinx html`）进行编译
 * 将编译完成后的文件从构建服务器复制到应用服务器，复制完成后，就开始工作
+
+**如果要修改为`mkdocs`工程，可以在高级设置中选择文档类型为`Mkdocs`**
 
 ### 编译问题
 
