@@ -10,10 +10,11 @@
 
 >mkdocs文档制作，github远程托管，readthedocs在线发布
 
-相关文档如下：
-
 * [MkDocs操作](./mkdocs/引言.md)
+* [readthedocs部署](./readthedocs/ReadtheDocs - 介绍.md)
+  
+相关链接：
+
 * [reStructured语法](./reStructuredText/reStructuredText-常用语法.md)
 * [sphinx操作](./sphinx/Sphinx - 介绍.md)
 * [pandoc使用](./pandoc-文档转换工具.md)
-* [readthedocs部署](./readthedocs/ReadtheDocs - 介绍.md)
