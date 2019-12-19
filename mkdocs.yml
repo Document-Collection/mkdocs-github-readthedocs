@@ -34,6 +34,11 @@ nav:
         - 介绍: './mkdocs/引言.md'
         - Get-Started: './mkdocs/get-started.md'
         - 配置文件解析: './mkdocs/配置文件解析.md'
+    - Readthedocs: 
+            - 介绍: './readthedocs/ReadtheDocs - 介绍.md'
+            - 在线发布: './readthedocs/ReadtheDocs - 在线发布.md'
+            - 徽章: './readthedocs/ReadtheDocs - 添加徽章.md'
+            - 编译问题: './readthedocs/ReadtheDocs - 编译问题.md'
     - reStructuredText: 
         - 常用语法: 'reStructuredText/reStructuredText-常用语法.md'
         - 目录树: 'reStructuredText/Sphinx-目录树.md'    
@@ -45,8 +50,3 @@ nav:
         - MathJax配置: './sphinx/Sphinx - MathJax.md'
         - bug: 'sphinx/Sphinx - bug.md'
     - Pandoc: 'pandoc-文档转换工具.md'
-    - Readthedocs: 
-        - 介绍: './readthedocs/ReadtheDocs - 介绍.md'
-        - 在线发布: './readthedocs/ReadtheDocs - 在线发布.md'
-        - 徽章: './readthedocs/ReadtheDocs - 添加徽章.md'
-        - 编译问题: './readthedocs/ReadtheDocs - 编译问题.md'
