@@ -30,6 +30,18 @@ extra_javascript:
 # 导航
 nav:
     - Home: index.md
+    - Markdown:
+        - '引言': './markdown/Markdown使用-1-引言.md'
+        - '页内跳转': './markdown/Markdown使用-2-页内跳转.md'
+        - '[CSDN]去除水印': './markdown/[CSDN]去除水印.md'
+        - '表格': './markdown/Markdown使用-4-表格.md'
+        - '数学公式': './markdown/Markdown使用-5-数学公式.md'
+        - '截图公式转换': './markdown/Markdown使用-6-截图公式转换.md'
+        - 'VSCode+Chrome': './markdown/Markdown使用-7-VSCode+Chrome.md'
+        - '代码块设置': './markdown/Markdown使用-8-代码块设置.md'
+        - '标签页实现': './markdown/Markdown使用-9-标签页实现.md'
+        - '自定义Markdown编辑器': './markdown/Markdown使用-todo-自定义Markdown编辑器.md'
+
     - MkDocs:
         - 介绍: './mkdocs/引言.md'
         - Get-Started: './mkdocs/get-started.md'
