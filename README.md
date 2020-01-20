@@ -25,7 +25,7 @@ Sphinx+Github+Readthedocs能够满足要求
 
 参考[MkDocs vs Sphinx](https://zhujian.tech/posts/50a5fdf2.html)，使用`MkDocs`替换`Sphinx`
 
-# 安装
+## 安装
 
 文档本地编译需要预先安装以下工具：
 
