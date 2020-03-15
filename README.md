@@ -11,6 +11,7 @@
 - [安装](#安装)
 - [用法](#用法)
 - [主要维护人员](#主要维护人员)
+- [致谢](#致谢)
 - [参与贡献方式](#参与贡献方式)
 - [许可证](#许可证)
 
@@ -52,9 +53,13 @@ $ pip install mkdocs
 
 * zhujian - *Initial work* - [zjZSTU](https://github.com/zjZSTU)
 
+## 致谢
+  
+<a href="https://github.com/Fechin"><img src="https://avatars0.githubusercontent.com/u/2541482?s=400&u=5098f61c658e9fe905344e4f0e300ae318a983d2&v=4" width = "40" height = "40" /></a>
+
 ## 参与贡献方式
 
-欢迎任何人的参与！打开[issue](https://github.com/zjZSTU/sphinx-github-readthedocs/issues)或提交合并请求。
+欢迎任何人的参与！打开[issue](https://github.com/zjZSTU/mkdocs-github-readthedocs/issues)或提交合并请求。
 
 注意:
 
