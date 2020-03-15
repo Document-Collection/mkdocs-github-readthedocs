@@ -19,33 +19,33 @@
 
 Markdown的表格语法如下：
 
-    | Syntax      | Description | Description1 |
-    | ----------- | ----------- | ------------ |
-    | Header      | Title       | Title1       |
-    | Paragraph   | Text        | Text1        |
+    | Syntax    | Description | Description1 |
+    | --------- | ----------- | ------------ |
+    | Header    | Title       | Title1       |
+    | Paragraph | Text        | Text1        |
 
     To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. You can optionally add pipes on either end of the table.
 
-| Syntax      | Description | Description1 |
-| ----------- | ----------- | ------------ |
-| Header      | Title       | Title1       |
-| Paragraph   | Text        | Text1        |
+| Syntax    | Description | Description1 |
+| --------- | ----------- | ------------ |
+| Header    | Title       | Title1       |
+| Paragraph | Text        | Text1        |
 
 使用3个或更多的连字符（`-`）来创建每列的头，使用竖线（`|`）来分离每列
 
 ### 对齐
 
-    | Syntax      | Description | Test Text     |
-    | :---        |    :----:   |          ---: |
-    | Header      | Title       | Here's this   |
-    | Paragraph   | Text        | And more      |
+    | Syntax    | Description |   Test Text |
+    | :-------- | :---------: | ----------: |
+    | Header    |    Title    | Here's this |
+    | Paragraph |    Text     |    And more |
 
     You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Syntax    | Description |   Test Text |
+| :-------- | :---------: | ----------: |
+| Header    |    Title    | Here's this |
+| Paragraph |    Text     |    And more |
 
 如果想要对齐每列（左，中，右），可以在连字符上加上分号（`:`），加在左边表示向左对齐，加在两侧表示居中对齐，加在右边表示向右对齐。
 
@@ -293,10 +293,14 @@ Markdown的表格语法如下：
 
 ## <a id="C3" href="#T3" target="_self">在线编辑</a>
 
-参考：[Tables Generator – 在线生成 LaTeX、HTML、Markdown 表格](https://www.appinn.com/tables-generator/)
+参考：
 
-参考：[TableConvert Online - 强大的在线表格转换工具](https://juejin.im/post/5cc674d1f265da036207b44d)
+[Tables Generator – 在线生成 LaTeX、HTML、Markdown 表格](https://www.appinn.com/tables-generator/)
 
-有一个在线表格生成器：[Tables Generator](http://www.tablesgenerator.com/html_tables)，可用于生成`Markdown`表格和`HTML`表格
+[TableConvert Online - 强大的在线表格转换工具](https://juejin.im/post/5cc674d1f265da036207b44d)
 
-还有一个`W3C`的在线编辑器：[html_tables](http://www.w3school.com.cn/tiy/t.asp?f=html_tables)
+在线表格生成器：
+
+1. [Tables Generator](http://www.tablesgenerator.com/html_tables)：可用于生成`Markdown`表格和`HTML`表格
+
+2. [html_tables](http://www.w3school.com.cn/tiy/t.asp?f=html_tables)：`W3C`的在线编辑器
