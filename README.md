@@ -24,7 +24,7 @@ CSDN编辑、发布文章不方便，想要找一个本地文档生成工具，�
 Sphinx+Github+Readthedocs能够满足要求
 ```
 
-参考[MkDocs vs Sphinx](https://zhujian.tech/posts/50a5fdf2.html)，使用`MkDocs`替换`Sphinx`
+参考[MkDocs vs Sphinx](https://blog.zhujian.life/posts/50a5fdf2.html)，使用`MkDocs`替换`Sphinx`
 
 ## 安装
 
