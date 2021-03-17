@@ -1,3 +1,5 @@
+# 本仓库不再维护，更新的内容前往：[ZJDoc/DocGuide](https://github.com/ZJDoc/DocGuide)
+
 # 引言
 
 之前总结了一套文档生成、托管和发布的流程：

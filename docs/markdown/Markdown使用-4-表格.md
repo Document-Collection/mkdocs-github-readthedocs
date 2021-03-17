@@ -301,6 +301,8 @@ Markdown的表格语法如下：
 
 在线表格生成器：
 
+1. [Markdown风格表格](https://tool.lu/tables)
+
 1. [Tables Generator](http://www.tablesgenerator.com/html_tables)：可用于生成`Markdown`表格和`HTML`表格
 
 2. [html_tables](http://www.w3school.com.cn/tiy/t.asp?f=html_tables)：`W3C`的在线编辑器
